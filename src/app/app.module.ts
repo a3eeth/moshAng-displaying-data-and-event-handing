@@ -14,6 +14,9 @@ import { EventbindingComponent } from './eventbinding/eventbinding.component';
 import { EventfilteringComponent } from './eventfiltering/eventfiltering.component';
 import { TemplatevariablesComponent } from './templatevariables/templatevariables.component';
 import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component';
+import { PipesComponent } from './pipes/pipes.component';
+import { CustompipesComponent } from './custompipes/custompipes.component';
+import { SummaryPipe } from './summary.pipe';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component'
     EventbindingComponent,
     EventfilteringComponent,
     TemplatevariablesComponent,
-    TwowaybindingComponent
+    TwowaybindingComponent,
+    PipesComponent,
+    CustompipesComponent,
+    SummaryPipe
   ],
   imports: [
     BrowserModule,
