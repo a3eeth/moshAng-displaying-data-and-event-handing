@@ -17,6 +17,9 @@ import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component'
 import { PipesComponent } from './pipes/pipes.component';
 import { CustompipesComponent } from './custompipes/custompipes.component';
 import { SummaryPipe } from './summary.pipe';
+import { FavoriteComponent } from './favorite/favorite.component';
+import { TitlecaseComponent } from './titlecase/titlecase.component';
+import { CapitalizerPipe } from './capitalizer.pipe';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,10 @@ import { SummaryPipe } from './summary.pipe';
     TwowaybindingComponent,
     PipesComponent,
     CustompipesComponent,
-    SummaryPipe
+    SummaryPipe,
+    FavoriteComponent,
+    TitlecaseComponent,
+    CapitalizerPipe
   ],
   imports: [
     BrowserModule,
